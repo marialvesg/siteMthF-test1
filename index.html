@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Carros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Loja de Carros</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#carros">Carros</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="carros" class="carros">
+        <div class="container">
+            <h2>Nossos Carros</h2>
+            <div class="carros-lista">
+                <div class="carro">
+                    <img src="carro1.jpg" alt="Carro 1">
+                    <h3>Carro Modelo A</h3>
+                    <p>Preço: R$ 50.000</p>
+                </div>
+                <div class="carro">
+                    <img src="carro2.jpg" alt="Carro 2">
+                    <h3>Carro Modelo B</h3>
+                    <p>Preço: R$ 60.000</p>
+                </div>
+                <div class="carro">
+                    <img src="carro3.jpg" alt="Carro 3">
+                    <h3>Carro Modelo C</h3>
+                    <p>Preço: R$ 70.000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma loja especializada em oferecer os melhores carros pelo melhor preço. Nossa missão é garantir a sua satisfação!</p>
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Loja de Carros. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
